@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #1e293b;
+    width: 50%;
+    height: 40%;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    color: #cbd5e1;
+    font-weight: 350;
+}
+
+#close-modal-btn {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    font-weight: 500;
+    margin: 20px 0px;
+    font-size: 1.0rem;
+    width: 40%;
+    height: 30%;
+    border-radius: 8px;
+    border: none;
+    transition: background 0.5s;
+    margin-top: 40px;
+}
+
+#close-modal-btn:hover {
+    cursor: pointer;
+    background-color: #cbd5e1;
+    color: #0f172a;
+    transition: background 0.5s;
+}
