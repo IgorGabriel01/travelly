@@ -1,9 +1,8 @@
 import './Modal.css'
 
-function Modal (){
-
+function Modal(){
     return(
-
+    
     <div id="modal" className="modal">
 
         <div className="modal-content">

@@ -1,4 +1,4 @@
-/*// Obtém a referência do botão que abre o modal
+// Obtém a referência do botão que abre o modal
 const openModalBtn = document.getElementById('open-modal-btn');
 console.log(openModalBtn);
 // Obtém a referência do elemento do modal
@@ -49,7 +49,7 @@ function getToken() {
 getToken()
 
 // Função para obter o resultado
-/*function getResult() {
+function getResult() {
   const origin = document.getElementById('origin').value;
   const destination = document.getElementById('destination').value;
   const departureDate = document.getElementById('departure-date').value;
@@ -94,4 +94,4 @@ getToken()
       // Em caso de erro ao obter o token, exibe mensagem de erro
       console.log(error);
     });
-}*/
+}
