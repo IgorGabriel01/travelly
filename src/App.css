@@ -57,8 +57,8 @@ input {
 }
   
 #modal {
-  display: none;
   position: fixed;
+  display: flex;
   z-index: 9999;
   top: 0;
   left: 0;
@@ -67,6 +67,7 @@ input {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
+ 
 
 #search-btn:hover {
   cursor: pointer;

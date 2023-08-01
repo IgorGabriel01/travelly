@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 #modal {
-    display: none;
+    /* display: none; */
     align-items: center;
     justify-content: center;
 }
@@ -17,11 +17,27 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
 }
+
+.close{
+    top: 20px;
+    position: absolute;
+    right: 33px;
+    font-size: 40px;
+    color: brown;
+}
+
+.close:hover{
+    color: rgb(133, 30, 30);
+    cursor: pointer;
+}
+
 
 p {
     color: #cbd5e1;
     font-weight: 350;
+    font-size: 23px;
 }
 
 #close-modal-btn {
